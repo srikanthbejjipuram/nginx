@@ -1,0 +1,33 @@
+#apt update
+
+#apt install nginx
+
+#apt install nodejs
+
+#apt install npm -y
+
+#cd /var/www/html/
+
+#mkdir todo
+
+#cd todo
+
+#git clone https://github.com/zslavanya/frontend.git
+
+#cd frontend/
+
+#npm install
+
+#npm run build
+
+#vi /etc/nginx/sites-enabled/default
+
+#here we changed "root/var/www/html/todo/frontend/dist"
+
+#vi config/index.js in this page we updated required private IP's 
+
+#systemctl restart nginx
+
+#systemctl enable nginx
+
+#npm start
